@@ -1,5 +1,7 @@
 using AmongUs.GameOptions;
 using Hazel;
+using InnerNet;
+using System.Collections.Generic;
 using System.Linq;
 using YuAntiCheat.Get;
 
@@ -7,9 +9,27 @@ namespace YuAntiCheat;
 
 internal class AntiCheatForAll
 {
+    private static List<byte> LobbyDeadBodies = [];
     public static int MeetingTimes = 0;
     public static int DeNum = 0;
-    
+    public static void Init()
+    {
+        LobbyDeadBodies = [];
+        DeNum = new();
+    }
+    public static void WarnHost(int denum = 1)
+    {
+        DeNum += denum;
+        if (ErrorText.Instance != null)
+        {
+            ErrorText.Instance.CheatDetected = DeNum > 3;
+            ErrorText.Instance.SBDetected = DeNum > 10;
+            if (ErrorText.Instance.CheatDetected)
+                ErrorText.Instance.AddError(ErrorText.Instance.SBDetected ? ErrorCode.SBDetected : ErrorCode.CheatDetected);
+            else
+                ErrorText.Instance.Clear();
+        }
+    }
     public static bool ReceiveRpc(PlayerControl pc, byte callId, MessageReader reader)
     {
         if (pc == null || reader == null || pc.AmOwner) return false;
@@ -153,8 +173,13 @@ internal class AntiCheatForAll
                     break;
                 
                 case RpcCalls.MurderPlayer:
+                    var murdered = sr.ReadNetObject<PlayerControl>();
                     if (GetPlayer.IsLobby || pc.Data.IsDead || (pc.Data.RoleType != RoleTypes.Impostor && pc.Data.RoleType != RoleTypes.Shapeshifter && pc.Data.RoleType != RoleTypes.Phantom))
                     {
+                        if (murdered != null && !LobbyDeadBodies.Contains(murdered.PlayerId))
+                        {
+                            LobbyDeadBodies.Add(murdered.PlayerId);
+                        }
                         Main.Logger.LogWarning($"玩家【{pc.GetClientId()}:{pc.GetRealName()}】非法击杀，已驳回");
                         return true;
                     }

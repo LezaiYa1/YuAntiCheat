@@ -12,5 +12,6 @@ class OnPlayerJoinedPatch
         Main.Logger.LogInfo(
             $"{client.PlayerName}(ClientID:{client.Id}/FriendCode:{client.FriendCode}/ProductUserId:{client.ProductUserId}) 加入房间");
         SendInGamePatch.SendInGame($"<color=#1E90FF>{client.PlayerName}</color> <color=#00FF7F>{Translator.GetString("JoinRoom")}</color>");
+        AntiCheatForAll.Init();
     }
 }
