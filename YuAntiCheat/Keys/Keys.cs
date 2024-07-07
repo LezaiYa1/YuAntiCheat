@@ -17,7 +17,6 @@ internal class Keys
             FunctionPatch.DumpLogKey();
         }
         
-        
         //开启非安全模式
         if (Input.GetKeyDown(KeyCode.F5))
         {
@@ -32,6 +31,7 @@ internal class Keys
         
         //-- 下面是主机专用的命令--//
         if (!AmongUsClient.Instance.AmHost) return;
+        
         //立即开始
         if (Input.GetKeyDown(KeyCode.LeftShift) && GetPlayer.IsCountDown)
         {
