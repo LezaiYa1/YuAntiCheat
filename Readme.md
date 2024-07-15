@@ -2,13 +2,7 @@
 
 ![YuAC-BG](./YuAntiCheat/Resources/YuAC-BG.jpg)
 
-<img src="https://badgen.net/github/license/Night-GUA/YuAntiCheat" alt="Licences">
-<img src="https://badgen.net/github/tag/Night-GUA/YuAntiCheat" alt="LatestTag">
-<img src="https://badgen.net/github/assets-dl/Night-GUA/YuAntiCheat" alt="Downloads">
-<img src="https://badgen.net/github/watchers/Night-GUA/YuAntiCheat" alt="Watchers">
-<img src="https://badgen.net/github/stars/Night-GUA/YuAntiCheat" alt="Stars">
-<img src="https://badgen.net/github/forks/Night-GUA/YuAntiCheat" alt="Forks">
-<img src="https://badgen.net/github/prs/Night-GUA/YuAntiCheat" alt="PRs">
+<img src="https://badgen.net/github/license/Night-GUA/YuAntiCheat" alt="Licences"> <img src="https://badgen.net/github/tag/Night-GUA/YuAntiCheat" alt="LatestTag"> <img src="https://badgen.net/github/assets-dl/Night-GUA/YuAntiCheat" alt="Downloads"> <img src="https://badgen.net/github/watchers/Night-GUA/YuAntiCheat" alt="Watchers"> <img src="https://badgen.net/github/stars/Night-GUA/YuAntiCheat" alt="Stars"> <img src="https://badgen.net/github/forks/Night-GUA/YuAntiCheat" alt="Forks"> <img src="https://badgen.net/github/prs/Night-GUA/YuAntiCheat" alt="PRs">
 
 ## 简体中文 | SChinese
 <details>
