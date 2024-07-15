@@ -4,37 +4,9 @@
 
 <img src="https://badgen.net/github/license/Night-GUA/YuAntiCheat" alt="Licences">  <img src="https://badgen.net/github/tag/Night-GUA/YuAntiCheat" alt="LatestTag">  <img src="https://badgen.net/github/assets-dl/Night-GUA/YuAntiCheat" alt="Downloads"> <img src="https://badgen.net/github/watchers/Night-GUA/YuAntiCheat" alt="Watchers">  <img src="https://badgen.net/github/stars/Night-GUA/YuAntiCheat" alt="Stars">  <img src="https://badgen.net/github/forks/Night-GUA/YuAntiCheat" alt="Forks">  <img src="https://badgen.net/github/prs/Night-GUA/YuAntiCheat" alt="PRs">
 
-## 简体中文 | SChinese
-<details>
-<summary> 展开 </summary>
+[简体中文](Readme.md) [English]
 
-### 反作弊~不能作弊哦！
-
-### 你好啊~这里是YuAntiCheat！下面是一些有用的按钮，你可以点击看看！
-
-<a href="https://github.com/Night-GUA/YuAntiCheat/releases" target="_blank"><img src="https://img.shields.io/badge/获取新版本%20-%231DA1F2.svg?&style=for-the-badge&logo=GitHub&logoColor=white&color=000000"/></a>
-
-### 使用教程
-1. 打开后即启动
-2. 若不是房主 部分功能需打开`非安全模式`（按下 `F5` 切换模式）
-
-### 在`非安全模式`下 YuAC会做的操作
-若检测到外挂 则多进行击杀一次
-
-### 致谢
-- KARPED1EM - 技术帮助&代码支持
-- NikoCat233 - 技术帮助
-- Slok7675 - 技术帮助
-- Farewell - 技术帮助
-- LezaiYa - 技术帮助&翻译帮助&代码提供
-- Imp11 - 技术帮助&翻译帮助
-- 慕斯Mousse - 翻译帮助
-- 小白熊贝儿 - Logo设计
-- Among us - 想法提供&代码提供
-- 鱼竿 - 背景图画师
-</details>
-
-## 英文 | English
+## English
 <details>
 <summary> Open </summary>
 
@@ -64,22 +36,10 @@ If the room has hacker, it will make an extra kill
 - 鱼竿 - Background Painter
 </details>
 
-## 多语言样式声明 | Multilingual style declarations
-<details>
-<summary> 展开 </summary>
+## Mod declarations
 
-## SChinese | 简体中文
-这些模组不隶属于 Among Us 或 Innersloth LLC，其包含的内容也未得到 Innersloth LLC 的认可或以其他方式赞助。此处包含的部分材料是Innersloth LLC的财产。
-## TChinese | 繁体中文
-這些模組不隸屬於 Among Us 或 Innersloth LLC，其包含的內容也未得到 Innersloth LLC 的認可或以其他方式贊助。此處包含的部分材料是Innersloth LLC的財產。
 ## English | 英文
 This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.
-## French | 法文
-Ce mod n'est pas affilié à Among Us ou à Innersloth LLC, et le contenu qu'il contient n'est pas approuvé ou autrement parrainé par Innersloth LLC. Certaines parties des documents contenus dans le présent document sont la propriété d'Innersloth LLC.
-## Japanese | 日文
-これらのモジュールは、Among UsまたはInnersloth LLCと提携しておらず、Innersloth LLCが承認またはその他の形でスポンサーとなっているコンテンツは含まれていません。 ここに含まれる資料の一部は、Innersloth LLCの所有物です。
-## Russian | 俄文
-Эти модули не связаны с Among Us или Innersloth LLC и не содержат контента, который был одобрен или иным образом спонсирован Innersloth LLC. Некоторые из содержащихся здесь материалов являются собственностью Innersloth LLC.
 
 </details>
 
@@ -89,7 +49,4 @@ Ce mod n'est pas affilié à Among Us ou à Innersloth LLC, et le contenu qu'il 
 
 #### `“良好的游戏环境需要玩家们的遵守 一个反作弊并不能维护这种环境”`
 
-### By Yu
-
 ![YuAC-Logo-tm](./YuAntiCheat/Resources/YuAC-Logo-tm.png)
-![Yu-Logo-tm](./YuAntiCheat/Resources/Yu-Logo-tm.png)
