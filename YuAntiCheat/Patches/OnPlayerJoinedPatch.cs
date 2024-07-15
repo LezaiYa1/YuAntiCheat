@@ -1,3 +1,6 @@
+using HarmonyLib;
+using InnerNet;
+
 namespace YuAntiCheat;
 
 [HarmonyPatch(typeof(AmongUsClient), nameof(AmongUsClient.OnPlayerJoined))]

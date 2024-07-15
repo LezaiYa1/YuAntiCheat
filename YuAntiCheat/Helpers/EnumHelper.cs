@@ -1,3 +1,5 @@
+using System;
+
 namespace YuAntiCheat;
 
 public static class EnumHelper

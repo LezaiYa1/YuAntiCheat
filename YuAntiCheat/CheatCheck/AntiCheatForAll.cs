@@ -1,3 +1,6 @@
+using AmongUs.GameOptions;
+using Hazel;
+using System.Linq;
 using YuAntiCheat.Get;
 
 namespace YuAntiCheat;

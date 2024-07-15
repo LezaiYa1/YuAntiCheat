@@ -1,3 +1,6 @@
+using InnerNet;
+using Hazel;
+
 namespace YuAntiCheat;
 
 public static class MurderHacker

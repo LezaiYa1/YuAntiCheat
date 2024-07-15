@@ -1,3 +1,8 @@
+using Hazel;
+using System;
+using System.Diagnostics;
+using System.IO;
+
 namespace YuAntiCheat;
 
 public class FunctionPatch

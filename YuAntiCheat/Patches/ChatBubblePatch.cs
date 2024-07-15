@@ -1,3 +1,6 @@
+using HarmonyLib;
+using UnityEngine;
+
 namespace YuAntiCheat.Patches;
 
 [HarmonyPatch(typeof(ChatBubble))]

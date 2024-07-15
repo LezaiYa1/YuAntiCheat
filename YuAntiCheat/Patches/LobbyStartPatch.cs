@@ -1,4 +1,6 @@
 using YuAntiCheat.UI;
+using HarmonyLib;
+using UnityEngine;
 
 namespace YuAntiCheat;
 

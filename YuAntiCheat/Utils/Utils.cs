@@ -1,3 +1,6 @@
+using UnityEngine;
+using Il2CppInterop.Runtime.InteropTypes.Arrays;
+
 namespace YuAntiCheat.Utils;
 
 public class Utils

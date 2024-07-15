@@ -1,3 +1,8 @@
+using AmongUs.GameOptions;
+using System.Linq;
+using System.Collections.Generic;
+using InnerNet;
+
 namespace YuAntiCheat.Get;
 
 public class PlayerState

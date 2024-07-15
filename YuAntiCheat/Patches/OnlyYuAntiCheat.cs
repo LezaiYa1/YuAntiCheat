@@ -1,3 +1,7 @@
+using HarmonyLib;
+using System.IO;
+using System.Reflection;
+
 namespace YuAntiCheat;
 
 public class OnlyYuAntiCheat

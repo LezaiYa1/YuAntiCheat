@@ -1,5 +1,10 @@
 using YuAntiCheat.Modules;
 using LogLevel = BepInEx.Logging.LogLevel;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace YuAntiCheat;
 

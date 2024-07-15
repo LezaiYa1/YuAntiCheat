@@ -1,4 +1,8 @@
-namespace YuAntiCheat;
+using HarmonyLib;
+using TMPro;
+using UnityEngine;
+
+namespace YuAntiCheat.Patches;
 
 [HarmonyPatch(typeof(AccountTab), nameof(AccountTab.Awake))]
 public static class UpdateFriendCodeUIPatch

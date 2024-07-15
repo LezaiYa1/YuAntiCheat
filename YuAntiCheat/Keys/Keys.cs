@@ -1,3 +1,7 @@
+using HarmonyLib;
+using System.Data;
+using System.Linq;
+using UnityEngine;
 using YuAntiCheat.Get;
 
 namespace YuAntiCheat.Keys;

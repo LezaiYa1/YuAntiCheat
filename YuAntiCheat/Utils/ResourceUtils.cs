@@ -1,3 +1,8 @@
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
+using UnityEngine;
+
 namespace YuAntiCheat.Utils;
 
 public static class ResourceUtils

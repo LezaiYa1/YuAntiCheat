@@ -1,3 +1,6 @@
+using TMPro;
+using UnityEngine;
+
 namespace YuAntiCheat.Templates;
 
 public sealed class TMPTemplate
