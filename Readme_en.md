@@ -1,3 +1,5 @@
+<div align="center">
+
 <h1>Yu Anti Cheat</h1>
 
 ![YuAC-BG](./YuAntiCheat/Resources/YuAC-BG.jpg)
