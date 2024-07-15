@@ -36,9 +36,8 @@
 - 鱼竿 - 背景图画师
 </details>
 
-## 多语言样式声明
+## Mod声明
 
-## SChinese | 简体中文
 这些模组不隶属于 Among Us 或 Innersloth LLC，其包含的内容也未得到 Innersloth LLC 的认可或以其他方式赞助。此处包含的部分材料是Innersloth LLC的财产。
 </details>
 
@@ -48,7 +47,4 @@
 
 #### `“良好的游戏环境需要玩家们的遵守 一个反作弊并不能维护这种环境”`
 
-### By Yu
-
 ![YuAC-Logo-tm](./YuAntiCheat/Resources/YuAC-Logo-tm.png)
-![Yu-Logo-tm](./YuAntiCheat/Resources/Yu-Logo-tm.png)
