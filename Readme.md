@@ -8,6 +8,8 @@
 
 [简体中文] [English](Readme_en.md)
 
+</div>
+
 ## 简体中文
 <details>
 <summary> 展开 </summary>
