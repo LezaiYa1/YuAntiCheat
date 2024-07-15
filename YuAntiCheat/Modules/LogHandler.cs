@@ -1,5 +1,3 @@
-using System;
-
 namespace YuAntiCheat.Modules;
 
 class LogHandler : ILogHandler

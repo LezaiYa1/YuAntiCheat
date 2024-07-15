@@ -1,15 +1,5 @@
-using HarmonyLib;
-using UnityEngine;
-using UnityEngine.UI;
-using System.Diagnostics;
-using Il2CppSystem;
-using Rewired.UI.ControlMapper;
-using TMPro;
-using YuAntiCheat;
 using YuAntiCheat.Get;
 using YuAntiCheat.Patches;
-using YuAntiCheat.Utils;
-using static YuAntiCheat.Translator;
 
 namespace YuAntiCheat;
 
@@ -64,15 +54,19 @@ public static class PingTracker_Update
         }
         
         if (Toggles.ShowIsAutoExit) __instance.text.text += Toggles.AutoExit ? "\n<color=#DC143C>[AutoExit]</color>" : "\n<color=#1E90FF>[UnAutoExit]</color>";
+        
 #if DEBUG
 __instance.text.text += "\n<color=#FFC0CB>[DEBUG]</color>";
 #endif
+
 #if CANARY
         __instance.text.text += "\n<color=#6A5ACD>[CANARY]</color>";
 #endif
+
 #if RELEASE
         __instance.text.text += "\n<color=#00FFFF>[RELEASE]</color>";
 #endif
+
         deltaTime += (Time.deltaTime - deltaTime) * 0.1f;
         fps = Mathf.Ceil(1.0f / deltaTime);
         if(Toggles.ShowPing) __instance.text.text += Utils.Utils.getColoredPingText(AmongUsClient.Instance.Ping); // 书写Ping

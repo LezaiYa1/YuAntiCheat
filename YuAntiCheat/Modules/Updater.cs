@@ -1,21 +1,5 @@
-using HarmonyLib;
-using Newtonsoft.Json.Linq;
-using Sentry.Unity.NativeUtils;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net.Http;
-using System.Reflection;
-using System.Security.Cryptography;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
-using TMPro;
-using UnityEngine;
 using YuAntiCheat.UI;
 using YuAntiCheat.Modules;
-using YuAntiCheat;
 
 namespace YuAntiCheat.Updater;
 

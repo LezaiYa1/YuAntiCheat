@@ -1,12 +1,5 @@
-using HarmonyLib;
-using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.IO;
-
 namespace YuAntiCheat;
 
-# pragma warning disable CA1416
 public static class RegistryManager
 {
     public static RegistryKey SoftwareKeys => Registry.CurrentUser.OpenSubKey("Software", true);

@@ -1,19 +1,11 @@
-using System;
-using System.IO;
-using System.Net.Http;
-using System.Threading.Tasks;
-
 namespace YuAntiCheat.Modules;
 
 public class HttpClientDownloadWithProgress(string downloadUrl, string destinationFilePath) : IDisposable
 {
     private readonly string _downloadUrl = downloadUrl;
     private readonly string _destinationFilePath = destinationFilePath;
-
     private HttpClient _httpClient;
-
     public delegate void ProgressChangedHandler(long? totalFileSize, long totalBytesDownloaded, double? progressPercentage);
-
     public event ProgressChangedHandler ProgressChanged;
 
     public async Task StartDownload()

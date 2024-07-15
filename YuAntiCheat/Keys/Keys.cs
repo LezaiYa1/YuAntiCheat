@@ -1,7 +1,3 @@
-using HarmonyLib;
-using System.Data;
-using System.Linq;
-using UnityEngine;
 using YuAntiCheat.Get;
 
 namespace YuAntiCheat.Keys;
@@ -16,7 +12,6 @@ internal class Keys
         {
             FunctionPatch.DumpLogKey();
         }
-        
         
         //开启非安全模式
         if (Input.GetKeyDown(KeyCode.F5))

@@ -1,8 +1,3 @@
-using HarmonyLib;
-using System.Text;
-using TMPro;
-using UnityEngine;
-
 namespace YuAntiCheat;
 
 [HarmonyPatch(typeof(ModManager), nameof(ModManager.LateUpdate))]

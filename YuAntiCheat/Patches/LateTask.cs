@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace YuAntiCheat;
 
 class LateTask
@@ -9,6 +6,7 @@ class LateTask
     public float timer;
     public Action action;
     public static List<LateTask> Tasks = new();
+
     public bool Run(float deltaTime)
     {
         timer -= deltaTime;
@@ -18,6 +16,7 @@ class LateTask
             return true;
         }
         return false;
+
     }
     public LateTask(Action action, float time, string name = "No Name Task")
     {

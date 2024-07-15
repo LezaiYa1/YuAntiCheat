@@ -1,6 +1,3 @@
-using TMPro;
-using UnityEngine;
-
 namespace YuAntiCheat.Templates;
 
 public sealed class TMPTemplate
@@ -23,8 +20,7 @@ public sealed class TMPTemplate
         float? fontSize = null,
         TextAlignmentOptions? alignment = null,
         bool setActive = false,
-        Transform parent = null
-    )
+        Transform parent = null)
     {
         var replicatedObject = parent == null
             ? Object.Instantiate(baseTMP)

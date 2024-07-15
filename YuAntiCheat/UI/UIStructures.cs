@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace YuAntiCheat.UI;
 
 public struct SubmenuInfo

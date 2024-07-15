@@ -1,6 +1,3 @@
-using HarmonyLib;
-using UnityEngine;
-
 namespace YuAntiCheat;
 
 public static class ObjectHelper

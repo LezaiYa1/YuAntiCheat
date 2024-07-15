@@ -1,5 +1,3 @@
-using HarmonyLib;
-using UnityEngine;
 using YuAntiCheat.UI;
 
 namespace YuAntiCheat;

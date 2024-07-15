@@ -1,5 +1,3 @@
-using HarmonyLib;
-using UnityEngine;
 using YuAntiCheat.Get;
 
 namespace YuAntiCheat;
@@ -36,8 +34,6 @@ public class PlayerPhysicPatch
             Toggles.RealBan = !Toggles.RealBan;
         }
         
-        
-        
         //-- 下面是主机专用的按钮--//
         
         //立即开始
@@ -63,6 +59,5 @@ public class PlayerPhysicPatch
             Toggles.AbolishDownTimer = !Toggles.AbolishDownTimer;
         }
         else if(Toggles.AbolishDownTimer) Toggles.AbolishDownTimer = !Toggles.AbolishDownTimer;
-
     }
 }

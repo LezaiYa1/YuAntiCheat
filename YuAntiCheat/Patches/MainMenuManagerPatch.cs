@@ -1,8 +1,3 @@
-using HarmonyLib;
-using System;
-using TMPro;
-using System.IO;
-using UnityEngine;
 using Object = UnityEngine.Object;
 using YuAntiCheat.Updater;
 
