@@ -1,4 +1,4 @@
-<h1>Yu Anti Cheat | Yu反作弊</h1>
+<h1>Yu反作弊</h1>
 
 ![YuAC-BG](./YuAntiCheat/Resources/YuAC-BG.jpg)
 
