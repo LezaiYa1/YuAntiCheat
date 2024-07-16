@@ -19,7 +19,6 @@ namespace YuAntiCheat;
 [BepInProcess("Among Us.exe")]
 public class Main : BasePlugin
 {
-
     public static readonly string ModName = "YuAntiCheat"; // 咱们的模组名字
     public static readonly string ModColor = "#fffcbe"; // 咱们的模组颜色
     public static readonly string MainMenuText = "外挂根本就不可能存在好嘛~"; // 咱们模组的首页标语

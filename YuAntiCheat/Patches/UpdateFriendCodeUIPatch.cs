@@ -2,7 +2,7 @@ using HarmonyLib;
 using TMPro;
 using UnityEngine;
 
-namespace YuAntiCheat.Patches;
+namespace YuAntiCheat;
 
 [HarmonyPatch(typeof(AccountTab), nameof(AccountTab.Awake))]
 public static class UpdateFriendCodeUIPatch

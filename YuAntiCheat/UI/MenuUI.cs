@@ -24,7 +24,7 @@ public class MenuUI : MonoBehaviour
         {
             new SubmenuInfo(Translator.GetString("PingPart"), false, new List<ToggleInfo>()
             {
-                new ToggleInfo(Translator.GetString("ShowCommit"), () => Toggles.ShowCommit, x => Toggles.ShowCommit = x),
+                //new ToggleInfo(Translator.GetString("ShowCommit"), () => Toggles.ShowCommit, x => Toggles.ShowCommit = x),
                 new ToggleInfo(Translator.GetString("ShowModText"), () => Toggles.ShowModText, x => Toggles.ShowModText = x),
                 new ToggleInfo(Translator.GetString("ShowIsSafe"), () => Toggles.ShowIsSafe, x => Toggles.ShowIsSafe = x),
                 new ToggleInfo(Translator.GetString("ShowSafeText"), () => Toggles.ShowSafeText, x => Toggles.ShowSafeText = x),
