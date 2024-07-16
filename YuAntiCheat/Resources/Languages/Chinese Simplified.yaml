@@ -34,6 +34,9 @@ Updater.NowFileMD5Fail: "当前文件MD5校验错误！请重新下载！"
 
 # 文本
 NotFoundStringInYaml: "没找到"
+Cancel: "取消按钮实例化并设定完毕"
+EndText: "EndText实例化并设定完毕"
+WarningText: "WarningText实例化并设定完毕"
 
 # 聊天
 SuspectedViolationMessage: "疑似违规信息"

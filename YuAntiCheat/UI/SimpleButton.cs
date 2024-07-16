@@ -24,7 +24,8 @@ public class SimpleButton
         Color32 hoverColor,
         Action action,
         string label,
-        bool isActive = true)
+        bool isActive = true
+    )
     {
         if (baseButton == null)
         {

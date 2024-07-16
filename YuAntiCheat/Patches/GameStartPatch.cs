@@ -30,14 +30,14 @@ public class GameStartManagerPatch
             timer = 600f;
 
             warningText = Object.Instantiate(__instance.GameStartText, __instance.transform);
-            warningText.name = "WarningText";
+            warningText.name = GetString("WarningText");
             warningText.transform.localPosition = new(0f, 0f - __instance.transform.localPosition.y, -1f);
             warningText.gameObject.SetActive(false);
             
             Logger.Info("WarningText instantiated and configured", "test");
             
             EndText = Object.Instantiate(__instance.GameStartText, __instance.transform);
-            EndText.name = "EndText";
+            EndText.name = GetString("EndText");
             EndText.transform.localPosition = new(0f, 0f - __instance.transform.localPosition.y, -1f);
             EndText.gameObject.SetActive(false);
             

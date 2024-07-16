@@ -27,7 +27,8 @@ internal class TitleLogoPatch
 
     public static Vector3 RightPanelOp;
     
-    public static void showPopup(string text){
+    public static void showPopup(string text)
+    {
         var popup = GameObject.Instantiate(DiscordManager.Instance.discordPopup, Camera.main!.transform);
         
         var background = popup.transform.Find("Background").GetComponent<SpriteRenderer>();
@@ -75,12 +76,27 @@ internal class TitleLogoPatch
 
         Dictionary<List<PassiveButton>, (Sprite, Color, Color, Color, Color)> mainButtons = new()
         {
-            {new List<PassiveButton>() {__instance.playButton, __instance.inventoryButton, __instance.shopButton},
-                (standardActiveSprite, new(1f, 0.524f, 0.549f, 0.8f), shade, Color.white, Color.white) },
-            {new List<PassiveButton>() {__instance.newsButton, __instance.myAccountButton, __instance.settingsButton},
-                (minorActiveSprite, new(1f, 0.825f, 0.686f, 0.8f), shade, Color.white, Color.white) },
-            {new List<PassiveButton>() {__instance.creditsButton, __instance.quitButton},
-                (minorActiveSprite, new(0.526f, 1f, 0.792f, 0.8f), shade, Color.white, Color.white) },
+            {
+            new List<PassiveButton>()
+            {
+                __instance.playButton, __instance.inventoryButton, __instance.shopButton
+            },
+            (standardActiveSprite, new(1f, 0.524f, 0.549f, 0.8f), shade, Color.white, Color.white)
+            },
+            {
+            new List<PassiveButton>()
+            {
+                __instance.newsButton, __instance.myAccountButton, __instance.settingsButton
+            },
+            (minorActiveSprite, new(1f, 0.825f, 0.686f, 0.8f), shade, Color.white, Color.white)
+            },
+            {
+            new List<PassiveButton>() 
+            {
+                __instance.creditsButton, __instance.quitButton
+            },
+            (minorActiveSprite, new(0.526f, 1f, 0.792f, 0.8f), shade, Color.white, Color.white)
+            },
         };
 
         void FormatButtonColor(PassiveButton button, Sprite borderType, Color inActiveColor, Color activeColor, Color inActiveTextColor, Color activeTextColor)
@@ -119,7 +135,6 @@ internal class TitleLogoPatch
 
         if (!(BottomButtonBounds = GameObject.Find("BottomButtonBounds"))) return;
         BottomButtonBounds.transform.localPosition -= new Vector3(0f, 0.1f, 0f);
-
         
         CloseRightButton = new GameObject("CloseRightPanelButton");
         CloseRightButton.transform.SetParent(RightPanel.transform);
@@ -189,9 +204,7 @@ internal class TitleLogoPatch
             ImageConversion.LoadImage(texture, ms.ToArray(), false);
             return texture;
         }
-        catch
-        {
-        }
+        catch { }
         return null;
     }
 }
